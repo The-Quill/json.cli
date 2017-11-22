@@ -1,0 +1,40 @@
+{
+  "name": "json.cli",
+  "version": "1.0.0",
+  "description": "A CLI tool for reading over a json file",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-quill/json.cli.git"
+  },
+  "keywords": [
+    "json",
+    "cli"
+  ],
+  "author": "the-quill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/the-quill/json.cli/issues"
+  },
+  "homepage": "https://github.com/the-quill/json.cli#readme",
+  "bin": {
+    "json": "bin/json.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "run-sequence": "^2.2.0"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0"
+  }
+}
