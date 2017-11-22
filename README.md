@@ -2,12 +2,10 @@
 
 json is a CLI tool for parsing json files easily
 
-to install run `npm i -g pretty-google`
+to install run `npm i -g json.cli`
 
-and then `google` followed by whatever you want to search:
+and then `json` followed by the json file you want to parse through, and then the selector:
 
- - `google weather in anaheim`
- 
- ![](https://i.imgur.com/o3O1Fzh.png)
+ - `json package.json bugs`
  
  If you have any bugs, issues or concerns, feel free to open an issue.
